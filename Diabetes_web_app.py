@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/IGDTUW/Machine Learning project/trained_model.sav', 'rb'))
 
 #creating a func for prediction
 
