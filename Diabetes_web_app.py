@@ -11,6 +11,8 @@ import streamlit as st
 
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
+
+
 #creating a func for prediction
 
 def diabetes_prediction(input_data):
