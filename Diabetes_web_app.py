@@ -8,6 +8,7 @@ Created on Sat Aug 19 15:21:21 2023
 import numpy as np
 import pickle
 import streamlit as st
+import sklearn
 
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 

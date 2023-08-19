@@ -7,6 +7,7 @@ This is a temporary script file.
 
 import numpy as np
 import pickle
+import sklearn
 
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
